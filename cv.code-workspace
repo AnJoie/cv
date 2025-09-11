@@ -1,0 +1,50 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"latex-workshop.latex.outDir": "./build/",
+		"latex-workshop.latex.recipes": [
+			{
+				"name": "latexmk",
+				"tools": [
+					"latexmk"
+				]},
+			{
+				"name": "luatex",
+				"tools": [
+					"luatex"
+				]
+			}
+		],
+		"latex-workshop.latex.tools": [
+			{
+				"name": "latexmk",
+				"command": "latexmk",
+				"args": [
+					"-synctex=1",
+					"-interaction=nonstopmode",
+					"-file-line-error",
+					"-pdf",
+					"-aux-directory=build",
+					"-output-directory=build",
+					"%DOC%"
+				]
+			},
+			{
+				"name": "luatex",
+				"command": "lualatex",
+				"args": [
+					"-synctex=1",
+					"-interaction=nonstopmode",
+					"-file-line-error",
+					"-aux-directory=build",
+					"-output-directory=build",
+					"%DOC%"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,42 @@
+# LaTeX build directory
+/build/
+
+# Auxiliary and intermediate files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.log
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.xdv
+*.run.xml
+
+# PDF (comment this out if you want to version-control the built PDF)
+*.pdf
+
+# Editors / OS
+*.swp
+*.DS_Store
+*.tmp
+*.bak
+*.backup
+*~
+
+# VS Code
+.vscode/
