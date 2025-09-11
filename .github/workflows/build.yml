@@ -43,7 +43,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Move PDF to build folder 
-        run: mkdir -p build mv main.pdf build/cv.pdf
+        run: mkdir -p build && mv main.pdf build/cv.pdf
       - name: Move index.html to build folder 
         run: mv index.html build/index.html
 
