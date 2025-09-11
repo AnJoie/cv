@@ -25,21 +25,20 @@ jobs:
           work_in_root_file_dir: true
           output_directory: build
 
-      - name: Upload pdf the release
-        if: always()
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: build/main.pdf
-          asset_name: cv.pdf
-          asset_content_type: pdf
       - name: Delete older releases
-        if: always()
         uses: dev-drprasad/delete-older-releases@v0.2.0
         with:
-          keep_latest: 1
+          keep_latest: 0
           delete_tags: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create new release and upload PDF
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: pdf-release
+          name: "cv.pdf"
+          body: "Compiled CV PDF"
+          files: build/main.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
