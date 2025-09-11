@@ -23,7 +23,6 @@ jobs:
           root_file: main.tex
           latexmk_use_lualatex: true
           work_in_root_file_dir: true
-          output_directory: build
 
       - name: Delete older releases
         uses: dev-drprasad/delete-older-releases@v0.2.0
@@ -39,6 +38,6 @@ jobs:
           tag_name: pdf-release
           name: "cv.pdf"
           body: "Compiled CV PDF"
-          files: build/main.pdf
+          files: main.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
