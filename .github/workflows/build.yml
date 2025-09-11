@@ -41,3 +41,15 @@ jobs:
           files: main.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Move PDF to build folder 
+        run: mkdir -p build mv main.pdf build/cv.pdf
+      - name: Move index.html to build folder 
+        run: mv index.html build/index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build
+          publish_branch: gh-pages
