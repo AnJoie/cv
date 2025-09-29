@@ -17,7 +17,14 @@
 				"tools": [
 					"luatex"
 				]
+			},
+			{
+				"name": "xelatex",
+				"tools": [
+					"xelatex"
+				]
 			}
+
 		],
 		"latex-workshop.latex.tools": [
 			{
@@ -36,6 +43,18 @@
 			{
 				"name": "luatex",
 				"command": "lualatex",
+				"args": [
+					"-synctex=1",
+					"-interaction=nonstopmode",
+					"-file-line-error",
+					"-aux-directory=build",
+					"-output-directory=build",
+					"%DOC%"
+				]
+			},
+			{
+				"name": "xelatex",
+				"command": "xelatex",
 				"args": [
 					"-synctex=1",
 					"-interaction=nonstopmode",

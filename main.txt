@@ -1,0 +1,70 @@
+ANASTASIIA RADEVA
+3D Character Artist | Stylized & Realistic Characters | ZBrush, Maya, Substance | UE5 & Unity
+ anastasiiar3d@gmail.com
+ +44 7498388941
+ Birmingham, UK
+
+https://www.linkedin.com/in/anjoie/
+Portfolio:
+https://anastasiiaradeva.artstation.com
+Pationate and experienced Character Artist with 4+ years in the game industry, creating stylized and realistic characters
+for mobile and PC titles. Proficient in Maya, ZBrush, Substance Painter, and experienced with Unreal Engine 5 and Unity.
+Strong background in anatomy, character design, and optimization for real‐time performance. Collaborative team player
+with experience in iterative development pipelines. Seeking opportunities to contribute to high‐profile stylized or realistic
+projects.
+
+EXPERIENCE
+3D Artist
+Full Fat, UK (Remote)
+09/2023 – 09/2024,
+• Created low‐poly character models optimized for mobile platforms, balancing visual quality and performance across
+diverse devices.
+• Collaborated with the lead artist and 3D team to maintain artistic consistency and meet production milestones.
+• Modeled and textured stylized characters in Blender and Substance Painter, achieving clear silhouettes and recognizable
+
+features with reduced polycounts.
+• Integrated assets directly into Unity, setting up materials and prefabs for rapid iteration.
+
+Selected Projects
+• Snake Charmer (iOS) – Modeled, textured, and animated the main character; contributed to environment art.
+• Laundry Mart! (iOS) – Produced all 3D assets, including 20+ clothing items.
+• Vault Crackers (iOS) – Designed 20+ character upgrades, focusing on clothing customization.
+• Makeup Tiles (iOS) – Created stylized hairstyles for existing characters.
+
+3D Generalist
+Allemo LTD (Remote)
+11/2021 – 06/2023,
+• Delivered up to 20 hypercasual models daily, maintaining quality while meeting tight deadlines.
+• Produced animations from video references, enhancing realism and player engagement.
+• Resolved rigging and skinning issues, improving deformation quality for gameplay.
+• Optimized assets using texture atlases, reducing draw calls and improving performance.
+
+Selected Projects
+• Your Restaurant (Android/iOS) – 50k+ downloads.
+• Boxing Rush (Android/iOS) – 10k+ downloads.
+• Jelly Shooter (Android/iOS) – 10k+ downloads.
+
+3D Artist
+Wargaming Academy
+2020 – 2021, Saint Petersburg
+• My team and I achieved 2nd place in an internal competition where we developed a 3D platformer game; I was
+responsible for creating 3D models.
+• Collaborated in an agile team environment, demonstrating professionalism and adaptability.
+
+SKILLS & SPECIALISATION
+• 3D Software: ZBrush, Blender, Maya, RizomUV, Substance Painter, Marmoset Toolbag, Marvelous Designer, 3ds Max
+• 2D Software: Photoshop, Illustrator
+• Game Engines: Unity, Unreal Engine 5
+
+• Version Control: Git, Perforce
+• Core Skills: Character modeling, sculpting, retopology, texturing (PBR & stylized), UV mapping, rigging, animation,
+
+optimization
+• Strong knowledge of anatomy, proportion, and gesture; experienced in skin weight painting for realistic deformations.
+
+EDUCATION
+• 2017–2021: Applied Math and Computer Science, St. Petersburg University
+• 2012–2017: Art School (Sculpting, Painting, Composition)
+• 3D Courses: Stylized Character (Skills Up School, 2023); Movie Man (XYZ School, 2022); 3D Art (Skills Up School, 2019)
+
+
