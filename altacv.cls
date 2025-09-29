@@ -105,9 +105,9 @@
     \medskip
     {\large\bfseries\color{accent}\@tagline\par}
     \medskip
-    {\normalsize\bfseries\@personalinfo\par}
+    {\large\bfseries\@personalinfo\par}
     \vspace{1em}
-    {\footnotesize\bfseries\@personalabstract\par}
+    {\normalsize\bfseries\@personalabstract\par}
     \ifdef{\@photodiameter}{%
     \end{minipage}%
     \begin{minipage}{0.15\linewidth}
